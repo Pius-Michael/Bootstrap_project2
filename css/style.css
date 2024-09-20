@@ -1,0 +1,28 @@
+body::before{
+display: block;
+content: '';
+height: 72px;
+
+
+}
+
+
+#Boxes .card{
+min-height: 240px;
+}
+
+#learn img{
+height: 100%;
+}
+
+#Instructors img{
+width: 130px;
+background-color: rgb(168, 165, 162);
+}
+
+/* Breakpoint for medium */
+@media(min-width: 768px){
+    .news-input{
+    width:50%
+    }
+}
